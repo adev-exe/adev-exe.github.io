@@ -8,14 +8,14 @@ var x = setInterval(function() {
   if(StartDistance > 0){
 
     Distance = StartDistance;
-    document.getElementById("timer").innerHTML = "<div class = \"row-lg-12\"><h2>ECU Spark Starts In...</h2></div><div class=\"row\"><div class = \"col\"></div><div class = \"col\"></div><div class = \"col\" id = \"days\">DD</div><div class = \"col\" id = \"hours\">HH</div><div class = \"col\" id = \"minutes\">MM</div><div class = \"col\" id = \"seconds\">SS</div><div class = \"col\"></div><div class = \"col\"></div></div><div class=\"row\"><div class = \"col\"></div><div class = \"col\"></div><div class = \"col\" >DD</div><div class = \"col\" >HH</div><div class = \"col\" >MM</div><div class = \"col\" >SS</div><div class = \"col\"></div><div class = \"col\"></div></div>";
+    document.getElementById("message").innerHTML = "<h2>ECU Spark Starts In...</h2>";
 
   }
 
   else if(StartDistance < 0 && EndDistance > 0){
 
     Distance = EndDistance;
-    document.getElementById("timer").innerHTML = "<div class = \"row-lg-12\"><h2>ECU Spark Ends In...</h2></div><div class=\"row\"><div class = \"col\"></div><div class = \"col\"></div><div class = \"col\" id = \"days\">DD</div><div class = \"col\" id = \"hours\">HH</div><div class = \"col\" id = \"minutes\">MM</div><div class = \"col\" id = \"seconds\">SS</div><div class = \"col\"></div><div class = \"col\"></div></div><div class=\"row\"><div class = \"col\"></div><div class = \"col\"></div><div class = \"col\" >DD</div><div class = \"col\" >HH</div><div class = \"col\" >MM</div><div class = \"col\" >SS</div><div class = \"col\"></div><div class = \"col\"></div></div>";
+    document.getElementById("message").innerHTML = "<h2>ECU Spark Ends In...</h2>";
 
   }
 
