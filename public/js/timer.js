@@ -1,5 +1,5 @@
-var eventStartDate = new Date("Jan 8, 2022 8:00:00").getTime();
-var eventEndDate = new Date("Mar 3, 2022 17:00:00").getTime();
+var eventStartDate = new Date("Apr 8, 2022 8:00:00").getTime();
+var eventEndDate = new Date("Apr 10, 2022 17:00:00").getTime();
 var x = setInterval(function() {
   var now = new Date().getTime();
   var StartDistance = eventStartDate - now;
